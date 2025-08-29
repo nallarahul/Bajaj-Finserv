@@ -4,10 +4,10 @@ import bodyParser from "body-parser";
 const app = express();
 app.use(bodyParser.json());
 
-const FULL_NAME = "john_doe"; 
-const DOB = "17091999";  
-const EMAIL = "john@xyz.com";
-const ROLL_NUMBER = "ABCD123";
+const FULL_NAME = "nalla_rahul"; 
+const DOB = "05012005";  
+const EMAIL = "nallarahul515@gmail.com";
+const ROLL_NUMBER = "22BCE7708";
 
 function alternatingCapsReverse(str) {
   let reversed = str.split("").reverse();
@@ -73,3 +73,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
